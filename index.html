@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator - DevWeekends</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="card">
+
+            <div class="header-container">
+                <h1>Tip Calculator <span class="dev-tag">-DEVWeekends</span></h1>
+                <button id="toggle-theme" aria-label="Toggle Theme">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+
+            <div class="section">
+                <p class="section-label">Enter bill total</p>
+                <div class="bill-display">
+                    <span class="currency-sign">$</span>
+                    <input type="number" id="bill" placeholder="0.00" />
+                </div>
+                <div class="bill-underline"></div>
+            </div>
+
+            <!-- Tip Buttons -->
+            <div class="section">
+                <p class="section-label">Choose tip</p>
+                <div class="tip-options">
+                    <button class="tip-btn">10%</button>
+                    <button class="tip-btn">15%</button>
+                    <button class="tip-btn active">20%</button>
+                    <button class="tip-btn">25%</button>
+                    <button class="tip-btn custom-toggle-btn" id="custom-toggle">Custom tip</button>
+                </div>
+                <div class="custom-tip-wrapper" id="custom-tip-wrapper">
+                    <input type="number" id="custom-tip" placeholder="Enter custom %" />
+                </div>
+            </div>
+
+            <div class="section">
+                <p class="section-label">Split</p>
+                <div class="split-control">
+                    <button class="split-btn" id="decrement">
+                        <i class="fas fa-minus"></i>
+                    </button>
+                    <span class="split-value" id="people-display">1</span>
+                    <button class="split-btn" id="increment">
+                        <i class="fas fa-plus"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="results">
+                <p class="results-label">Total per person</p>
+                <div class="per-person-amount">$<span id="per-person">0.00</span></div>
+                <div class="results-breakdown">
+                    <div class="breakdown-item">
+                        <span class="breakdown-label">bill</span>
+                        <span class="breakdown-value" id="total-amount">$0.00</span>
+                    </div>
+                    <div class="breakdown-divider"></div>
+                    <div class="breakdown-item">
+                        <span class="breakdown-label">tip</span>
+                        <span class="breakdown-value" id="tip-amount">$0.00</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Reset -->
+            <div class="actions">
+                <button id="reset">Reset</button>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
