@@ -71,5 +71,48 @@ Try adding:
 
 ---
 
+
+## 🤝 Contribution Guide
+
+Contributions are welcome! If you're learning open source or want to improve this project, follow these simple steps:
+
+1. Fork the repository
+2. Clone your fork
+
+   ```bash
+   git clone https://github.com/your-username/tip-calculator.git
+````
+
+3. Create a new branch
+
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+
+4. Make your changes
+
+5. Commit your changes
+
+   ```bash
+   git commit -m "Add: short description"
+   ```
+
+6. Push to your fork
+
+   ```bash
+   git push origin feature/your-feature-name
+   ```
+
+7. Open a Pull Request 🚀
+
+### Good First Issues
+
+If you're new to open source, do check these labels on issues in the projects or repos you are working on:
+
+* `good first issue`
+* `documentation`
+* `enhancement`
+
+
 ## 📬 Connect With Me
 Made with 💖 by Arfa Tariq(https://www.linkedin.com/in/arfah-tariq/)
