@@ -87,7 +87,7 @@ Contributions are welcome! If you're learning open source or want to improve thi
 
    ```bash
    git checkout -b feature/your-feature-name
-   ```
+````
 
 4. Make your changes
 
@@ -95,18 +95,19 @@ Contributions are welcome! If you're learning open source or want to improve thi
 
    ```bash
    git commit -m "Add: short description"
-   ```
+````
 
 6. Push to your fork
 
    ```bash
    git push origin feature/your-feature-name
-   ```
-
+````
 7. Open a Pull Request 🚀
 
-### Good First Issues
+---
 
+
+## Good First Issues
 If you're new to open source, do check these labels on issues in the projects or repos you are working on:
 
 * `good first issue`
@@ -114,5 +115,5 @@ If you're new to open source, do check these labels on issues in the projects or
 * `enhancement`
 
 
-## 📬 Connect With Me
+##📬 Connect With Me
 Made with 💖 by Arfa Tariq(https://www.linkedin.com/in/arfah-tariq/)
